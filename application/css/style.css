@@ -1,0 +1,21 @@
+body{
+	background-color : grey;
+}
+
+label{
+	position : fixe;
+}
+
+input{
+	border: 1px solid black;
+}
+
+.input-text{
+	position: absolute;
+    left: 100px;
+}
+
+.UserPart{
+	background-color : rgb(221,228,233);
+	width : 600px;
+}
