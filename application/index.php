@@ -20,14 +20,15 @@
 		<H2> Codage de la partie Users</H2>
 		
 		<form method="post" action="index.php">
-			<label>
+			<p><label>
             Adresse e-mail :
 	            <input class="input-text" type="text" name="user_AdrMail"/>
-	        </label><br />
-	        <label>
+	        </label></P>
+	        <p><label>
             Mot de passe :
 	            <input class="input-text" type="pasword" name="user_MDP"/>
-	        </label><br />
+	        </label></p>
+	        <br />
 	        
 	        <input class="input-submit" type=" button" value="Envoyer et continuer" />
 		</form>
