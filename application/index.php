@@ -19,7 +19,7 @@
 	<div class="UserPart">
 		<H2> Codage de la partie Users</H2>
 		
-		<form class="formulaire" method="post" action="index.php">
+		<form method="post" action="index.php">
 			<p><label>
             Adresse e-mail :
 	            <input class="input-text" type="text" name="user_AdrMail"/>
@@ -33,6 +33,17 @@
 	        <p></p><input class="input-submit" type=" button" value="Envoyer et continuer" /></p>
 		</form>
 		
+	
+	</div>
+	</br></br></br></br></br>
+	<div class="users">
+	<?php 
+		require './class/User.php';
+		
+		$user = new User();
+		var_dump($user);
+	?>
+	
 	
 	</div>
 </body>

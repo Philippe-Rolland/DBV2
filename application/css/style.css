@@ -11,7 +11,7 @@ input{
 }
 
 .formulaire{
-	background-colour : blue;
+	background-colour : rgb(221,228,233);
 	position: absolute;
     left: 150px;
 }
