@@ -10,10 +10,23 @@ input{
 	border: 1px solid black;
 }
 
+.formulaire{
+	background-colour : blue;
+	position: absolute;
+    left: 150px;
+}
+
+
 .input-text{
 	position: absolute;
     left: 150px;
 }
+
+.input-submit{
+	position: absolute;
+    left: 80px;
+}
+
 
 .UserPart{
 	background-color : rgb(221,228,233);

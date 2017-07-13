@@ -19,7 +19,7 @@
 	<div class="UserPart">
 		<H2> Codage de la partie Users</H2>
 		
-		<form method="post" action="index.php">
+		<form class="formulaire" method="post" action="index.php">
 			<p><label>
             Adresse e-mail :
 	            <input class="input-text" type="text" name="user_AdrMail"/>
@@ -30,7 +30,7 @@
 	        </label></p>
 	        <br />
 	        
-	        <input class="input-submit" type=" button" value="Envoyer et continuer" />
+	        <p></p><input class="input-submit" type=" button" value="Envoyer et continuer" /></p>
 		</form>
 		
 	
