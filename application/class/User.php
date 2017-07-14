@@ -28,11 +28,11 @@ class User{
 	
 	// setters
 	
-	public function setUser_ID(){$this->User_ID = $User_ID;}
-	public function setUser_AdrMail(){$this->User_AdrMail = $User_AdrMail;}
-	public function setUser_MdP(){$this->User_MdP = $User_MdP;}
-	public function setUser_Camp_ID(){$this->User_Camp_ID = $User_Camp_ID;}
-	public function setUser_Etat_ID(){$this->User_Etat_ID = $User_Etat_ID;}
-	public function setUser_CreaDate(){$this->User_CreaDate = $User_CreaDate;}
+	public function setUser_ID($User_ID = null){$this->User_ID = $User_ID;}
+	public function setUser_AdrMail($User_AdrMail = null){$this->User_AdrMail = $User_AdrMail;}
+	public function setUser_MdP($User_MdP = null){$this->User_MdP = $User_MdP;}
+	public function setUser_Camp_ID($User_Camp_ID = null){$this->User_Camp_ID = $User_Camp_ID;}
+	public function setUser_Etat_ID($User_Etat_ID = null){$this->User_Etat_ID = $User_Etat_ID;}
+	public function setUser_CreaDate($User_CreaDate = null){$this->User_CreaDate = $User_CreaDate;}
 	
 }

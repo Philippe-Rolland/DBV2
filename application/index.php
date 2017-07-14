@@ -42,6 +42,13 @@
 		
 		$user = new User();
 		var_dump($user);
+		$user->setUser_ID(00005);
+		$user->setUser_AdrMail('phetflo.rolland@orange.fr');
+		$user->setUser_MdP('kangourou');
+		$user->setUser_Camp_ID(02);
+		$user->setUser_Etat_ID(05);
+		$user->setUser_CreaDate('2017-07-14 17:25:00');
+		var_dump($user);
 	?>
 	
 	

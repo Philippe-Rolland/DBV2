@@ -1,5 +1,5 @@
 body{
-	background-color : grey;
+	background-color : #ffc0cb;
 }
 
 label{
@@ -11,7 +11,7 @@ input{
 }
 
 .formulaire{
-	background-colour : rgb(221,228,233);
+	background-colour : rgb(255,192,203);
 	position: absolute;
     left: 150px;
 }
